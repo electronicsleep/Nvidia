@@ -5,7 +5,6 @@
 #apt-get update && apt-get upgrade && apt-get dist-upgrade && apt-get install build-essential && apt-get install linux-source apt-get install linux-headers-$(uname -r)
 
 #vim /etc/default/grub
-
 #GRUB_CMDLINE_LINUX_DEFAULT="quiet splash nomodeset"
 #Replace
 #GRUB_CMDLINE_LINUX_DEFAULT="nouveau.blacklist=1 quiet splash nomodeset"
@@ -34,6 +33,7 @@
 
 #reboot
 
+#vim /etc/default/grub
 #GRUB_CMDLINE_LINUX_DEFAULT="nouveau.blacklist=1 quiet splash nomodeset"
 #Replace
 #GRUB_CMDLINE_LINUX_DEFAULT="quiet splash nomodeset"
