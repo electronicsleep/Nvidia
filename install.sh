@@ -15,6 +15,7 @@
 
 #reboot
 
+#ADD TO BLACKLIST
 #vim /etc/modprobe.d/blacklist.conf
 #blacklist vga16fb
 #blacklist nouveau
