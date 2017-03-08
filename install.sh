@@ -1,5 +1,4 @@
 ### INSTALL NVIDIA DRIVERS DEBIAN 8
-
 #DOWNLOAD Card/Arch
 #http://www.nvidia.com/Download/index.aspx?lang=en-us
 
@@ -8,7 +7,6 @@
 #vim /etc/default/grub
 
 #GRUB_CMDLINE_LINUX_DEFAULT="quiet splash nomodeset"
-
 #Replace
 #GRUB_CMDLINE_LINUX_DEFAULT="nouveau.blacklist=1 quiet splash nomodeset"
 
@@ -28,14 +26,14 @@
 #alias nouveau off
 #alias lbm-nouveau off
 
-#bash ./NVIDIA-Linux-x86_64-355.11.run
+#INSTALL NVIDIA DRIVER
+#bash ./NVIDIA-Linux-x86_64*.run
 
 #nvidia-xconfig
 
 #reboot
 
 #GRUB_CMDLINE_LINUX_DEFAULT="nouveau.blacklist=1 quiet splash nomodeset"
-
 #Replace
 #GRUB_CMDLINE_LINUX_DEFAULT="quiet splash nomodeset"
 
