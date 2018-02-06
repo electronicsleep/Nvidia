@@ -18,8 +18,6 @@
 # REMOVE ANY CONFLICTS
 # apt-get remove nvidia* && apt-get autoremove
 
-# reboot
-
 # ADD TO BLACKLIST
 # vim /etc/modprobe.d/blacklist.conf
 # blacklist vga16fb
@@ -31,6 +29,12 @@
 # options nouveau modeset=0
 # alias nouveau off
 # alias lbm-nouveau off
+
+# reboot
+
+# STOP GDM
+# service gdm stop
+# init 3
 
 # INSTALL NVIDIA DRIVER
 # bash ./NVIDIA-Linux-x86_64*.run
